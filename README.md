@@ -1,10 +1,12 @@
-AIview – AI-Based Interview Simulation System
+# 🚀 AIview – AI-Based Interview Simulation System
 
 AIview is an AI-powered interview preparation platform that simulates real interview environments and provides **automated, personalized feedback** on user responses.
 
 It integrates resume-based question generation, answer evaluation, and performance analytics into a single workflow.
 
-📌 Overview
+---
+
+## 📌 Overview
 
 Traditional interview preparation lacks structured evaluation and actionable feedback. AIview addresses this by:
 
@@ -15,7 +17,9 @@ Traditional interview preparation lacks structured evaluation and actionable fee
 
 The system is designed as a **local prototype**, focusing on usability and AI integration rather than large-scale deployment.
 
-✨ Key Features
+---
+
+## ✨ Key Features
 
 * 📄 Resume-based question generation
 * 🤖 AI-powered answer evaluation (0–10 scoring)
@@ -24,7 +28,9 @@ The system is designed as a **local prototype**, focusing on usability and AI in
 * 🧠 Structured feedback (strengths, weaknesses, suggestions)
 * 📚 Learning module (tips, frameworks, examples)
 
-🏗️ System Architecture
+---
+
+## 🏗️ System Architecture
 
 The system follows a modular architecture:
 
@@ -33,12 +39,8 @@ The system follows a modular architecture:
 * **AI Model (Gemini API)**: Generates questions + evaluates answers
 * **Database (SQLAlchemy)**: Stores sessions, responses, results
 
-👉 The architecture diagram (page 6 of the report) shows:
 
-* Data flow between frontend → backend → AI → database
-* Sequential processing from resume upload to feedback generation 
-
-🔄 Workflow
+## 🔄 Workflow
 
 1. Upload resume
 2. Resume parsing (skills, education, experience extraction)
@@ -48,9 +50,9 @@ The system follows a modular architecture:
 6. Results stored in database
 7. Dashboard displays performance insights
 
+---
 
-
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 | Layer          | Technology Used         |
 | -------------- | ----------------------- |
@@ -60,25 +62,7 @@ The system follows a modular architecture:
 | Database       | SQLAlchemy              |
 | Resume Parsing | pdfplumber, python-docx |
 
----
 
-## 📂 Project Structure (Suggested)
-
-```
-AIview/
-│── app.py
-│── actions.py / backend modules
-│── templates/
-│── static/
-│── database/
-│── utils/
-│── requirements.txt
-│── README.md
-```
-
-*(Adjust based on your actual repo structure)*
-
----
 
 ## ⚙️ Installation & Setup
 
@@ -158,19 +142,6 @@ The system generates:
 
 ---
 
-## 📸 Screenshots
-
-Include screenshots from your report:
-
-* Home page
-* Interview interface
-* Dashboard
-* Results
-
-*(You can upload images to GitHub and link them here)*
-
----
-
 ## 👨‍💻 Author
 
 **Shashwat Devan**
@@ -179,20 +150,8 @@ KIIT University
 
 ---
 
-## 📜 License
-
-This project is for academic and prototype purposes. Add a license (MIT recommended) if needed.
-
----
-
 ## ⭐ Contribution
 
 This is a prototype project, but suggestions and improvements are welcome!
 
 ---
-
-If you want, I can:
-
-* tailor this to **exact GitHub folder structure (your repo)**
-* add **badges (build, license, Python version)**
-* or make it **resume/project portfolio optimized** (for recruiters)
